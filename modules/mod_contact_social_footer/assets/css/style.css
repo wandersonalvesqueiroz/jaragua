@@ -1,0 +1,109 @@
+#contact-social-footer {
+
+}
+
+ul.contact-social-footer {
+    list-style: none;
+    display: table;
+    padding: 0;
+    margin: auto;
+}
+
+ul.contact-social-footer li {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+ul.contact-social-footer li:last-child {
+    margin-right: 0;
+}
+
+ul.contact-social-footer li a {
+    color: #504f51;
+    text-decoration: none;
+    font-size: 20px;
+    display: table;
+}
+
+ul.contact-social-footer li a:hover {
+    color: #000000;
+}
+
+ul.contact-social-footer li a b {
+    font-weight: normal;
+}
+
+ul.contact-social-footer li a i {
+    font-size: 40px;
+}
+
+ul.contact-social-footer li a.email {
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 32px;
+    text-align: center;
+}
+
+ul.contact-social-footer li a.facebook i {
+    font-size: 34px;
+}
+
+ul.contact-social-footer li a span {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.moduletable-sociais #contact-social-footer {
+    float: none;
+}
+
+.moduletable-sociais ul.contact-social-footer {
+    margin: auto;
+}
+
+.moduletable-sociais ul.contact-social-footer li a {
+    color: #FFF;
+}
+
+.moduletable-sociais ul.contact-social-footer li a:hover {
+    color: #c22b3c;
+}
+
+#contact-social-footer .certificado {
+    float: left;
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    ul.contact-social-footer li a b {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    ul.contact-social-footer li a i {
+        font-size: 24px;
+        padding: 4px 0;
+        vertical-align: middle;
+    }
+
+    ul.contact-social-footer li a span {
+        margin: 0;
+    }
+
+    ul.contact-social-footer li {
+        padding: 0 3px;
+        border: 0;
+    }
+
+    ul.contact-social-footer {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul.contact-social-footer li a i {
+        font-size: 20px;
+    }
+}

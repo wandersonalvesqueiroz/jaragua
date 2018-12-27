@@ -1,0 +1,146 @@
+.moduletable-comunicado > h3 {
+    color: #810000;
+    background-color: #FFF;
+    font-size: 36px;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: table;
+    margin: -20px auto 40px auto;
+    padding: 0 20px;
+}
+
+.moduletable-comunicado hr {
+    margin: 0;
+    background-color: #810000;
+    height: 2px;
+}
+
+#modwarnings {
+    width: 100%;
+    display: table;
+    position: relative;
+    z-index: 5;
+}
+
+.warnings {
+    width: 1170px;
+    margin: auto;
+}
+
+.warning h1 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.warning {
+    width: calc(100% - 120px);
+    padding: 0 60px;
+}
+
+.warning a,
+.warning a:hover {
+    text-decoration: none;
+}
+
+.warning p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+#modwarnings .slider-wrap {
+    position: relative;
+    width: 1170px;
+}
+
+#modwarnings .slider {
+    position: relative;
+    width: 1170px;
+    margin: auto;
+}
+
+#modwarnings ul {
+    margin: 0;
+    padding: 0;
+}
+
+#modwarnings ul li {
+    list-style: none;
+}
+
+#modwarnings ul li > div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#modwarnings .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+#modwarnings .slider-arrow:hover {
+    opacity: 1;
+}
+
+#modwarnings .slider-arrow i {
+    text-shadow: 0px 0px 15px #000000;
+}
+
+#modwarnings .sa-left {
+    left: 10px;
+}
+
+#modwarnings .sa-right {
+    right: 10px;
+}
+
+#modwarnings .btn-warnings {
+    display: table;
+    margin: 30px auto 0 auto;
+    background-color: #810000;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#modwarnings .btn-warnings:hover{
+    background-color: #950101;
+}
+
+@media screen and (max-width: 1200px) {
+    .warnings {
+        width: 96%;
+        margin: auto;
+    }
+
+    #modwarnings .slider-wrap {
+        width: 100%;
+    }
+
+    #modwarnings ul li > div {
+        background: transparent;
+        height: auto;
+    }
+
+    .stay {
+        width: 100%;
+        height: auto;
+        padding: 50px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #modwarnings .slider-arrow {
+        opacity: 1 !important;
+    }
+
+    .stay p {
+        font-size: 18px;
+    }
+}

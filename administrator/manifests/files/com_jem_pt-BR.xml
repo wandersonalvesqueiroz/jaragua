@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+ 
+        <!-- Please use a unique name to make uninstall to work. Should be identical to your manifest filename. -->
+        <name>com_jem_pt-BR</name>
+		<tag>pt-BR</tag>
+        <author>Brazilian-Portugese Translation Team</author>
+        <creationDate>5 March 2018</creationDate>
+        <copyright>(C) 2005-2018 Christopher Lukes / JEM Translation Team</copyright>
+        <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+        <authorEmail>info@joomlaeventmanager.net</authorEmail>
+        <authorUrl>http://www.joomlaeventmanager.net</authorUrl>
+        <version>2.2.3</version>
+        <description>This is the pt-BR language pack for JEM - an Event Manager for Joomla!
+						For assistance in translations please visit the Transifex Project page of JEM at http://www.transifex.com/projects/p/JEM/
+		</description>
+ 
+        <!-- Fileset definition -->
+        <fileset>
+ 
+                <!-- back-end -->
+                <files folder="admin_pt-BR" target="administrator/components/com_jem/language/pt-BR">
+                        <filename>pt-BR.com_jem.ini</filename>
+                        <filename>pt-BR.com_jem.sys.ini</filename>
+                </files>
+ 
+                <!-- front-end -->
+                <files folder="site_pt-BR" target="components/com_jem/language/pt-BR">
+                        <filename>pt-BR.com_jem.ini</filename>			 
+                </files>
+				
+				<!-- modules -->
+				<files folder="site_pt-BR" target="modules/mod_jem/language/pt-BR">
+                        <filename>pt-BR.mod_jem.ini</filename>
+						<filename>pt-BR.mod_jem.sys.ini</filename>
+			    </files>
+				
+				<files folder="site_pt-BR" target="modules/mod_jem_wide/language/pt-BR">
+                        <filename>pt-BR.mod_jem_wide.ini</filename>
+						<filename>pt-BR.mod_jem_wide.sys.ini</filename>
+			    </files>
+				
+				<files folder="site_pt-BR" target="modules/mod_jem_cal/language/pt-BR">
+                        <filename>pt-BR.mod_jem_cal.ini</filename>
+						<filename>pt-BR.mod_jem_cal.sys.ini</filename>
+			    </files>
+				
+				<files folder="site_pt-BR" target="modules/mod_jem_calajax/language/pt-BR">
+                        <filename>pt-BR.mod_jem_calajax.ini</filename>
+						<filename>pt-BR.mod_jem_calajax.sys.ini</filename>
+			    </files>
+				
+				<files folder="site_pt-BR" target="modules/mod_jem_teaser/language/pt-BR">
+                        <filename>pt-BR.mod_jem_teaser.ini</filename>
+						<filename>pt-BR.mod_jem_teaser.sys.ini</filename>
+			    </files>	
+				
+				<files folder="site_pt-BR" target="modules/mod_jem_banner/language/pt-BR">
+                        <filename>pt-BR.mod_jem_banner.ini</filename>
+						<filename>pt-BR.mod_jem_banner.sys.ini</filename>							
+			    </files>					
+								
+				<!-- plugins -->				
+				<files folder="site_pt-BR" target="plugins/finder/jem/language/pt-BR">
+                        <filename>pt-BR.plg_finder_jem.ini</filename>
+						<filename>pt-BR.plg_finder_jem.sys.ini</filename>
+			    </files>
+
+				<files folder="site_pt-BR" target="plugins/jem/comments/language/pt-BR">
+                        <filename>pt-BR.plg_jem_comments.ini</filename>
+						<filename>pt-BR.plg_jem_comments.sys.ini</filename>
+			    </files>
+				
+				<files folder="site_pt-BR" target="plugins/jem/mailer/language/pt-BR">
+                        <filename>pt-BR.plg_jem_mailer.ini</filename>
+						<filename>pt-BR.plg_jem_mailer.sys.ini</filename>
+			    </files>
+				
+				<files folder="site_pt-BR" target="plugins/search/jem/language/pt-BR">
+                        <filename>pt-BR.plg_search_jem.ini</filename>
+						<filename>pt-BR.plg_search_jem.sys.ini</filename>
+			    </files>
+
+				
+        </fileset>
+</extension>
+

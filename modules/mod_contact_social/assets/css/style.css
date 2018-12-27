@@ -1,0 +1,128 @@
+#contact-social {
+}
+
+ul.contact-social {
+    list-style: none;
+    display: table;
+    margin: 0;
+    padding: 0;
+}
+
+ul.contact-social li {
+    display: inline-block;
+    padding: 0;
+    margin-right: 5px;
+}
+
+ul.contact-social li:last-child {
+    border: 0;
+    margin-right: 0;
+}
+
+ul.contact-social li a {
+    color: #FFF;
+    background-color: #41583e;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    display: table;
+    text-align: center;
+}
+
+ul.contact-social li a:hover {
+    background-color: #183d13;
+}
+
+ul.contact-social li a i {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+ul.contact-social li a b {
+    font-weight: normal;
+}
+
+ul.contact-social li a.email {
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 32px;
+    text-align: center;
+    margin-bottom: -2px;
+}
+
+ul.contact-social li a.email:hover {
+    background-color: #c22b3c;
+}
+
+ul.contact-social li a.email i {
+    font-size: 22px;
+    line-height: 30px;
+    color: #000;
+}
+
+ul.contact-social li a.instagram i {
+    font-size: 24px;
+    margin-top: -4px;
+    margin-left: -1px;
+}
+
+ul.contact-social li a span {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.moduletable-sociais #contact-social {
+    float: none;
+}
+
+.moduletable-sociais ul.contact-social {
+    margin: auto;
+}
+
+.moduletable-sociais ul.contact-social li a {
+    color: #FFF;
+}
+
+.moduletable-sociais ul.contact-social li a:hover {
+    color: #c22b3c;
+}
+
+#contact-social .certificado {
+    float: left;
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    ul.contact-social li a b {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    ul.contact-social li a i {
+        font-size: 24px;
+        padding: 4px 0;
+        vertical-align: middle;
+    }
+
+    ul.contact-social li a span {
+        margin: 0;
+    }
+
+    ul.contact-social li {
+        padding: 0 3px;
+        border: 0;
+    }
+
+    ul.contact-social {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul.contact-social li a i {
+        font-size: 20px;
+    }
+}

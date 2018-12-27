@@ -1,0 +1,182 @@
+/**
+ * @version 2.2
+ * @package JEM
+ * @subpackage JEM Teaser Module
+ * @copyright (C) 2013-2018 joomlaeventmanager.net
+ * @copyright (C) 2005-2009 Christoph Lukes
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+div#jemmoduleteaser {
+    width: 100%;
+}
+
+div#jemmoduleteaser .teaser-jem a,
+div#jemmoduleteaser .venue-title a {
+    background-color: transparent;
+    /*color:#095197;*/
+}
+
+#jemmoduleteaser td.event-calendar {
+    width: 1%; /* keep it as small as possible */
+}
+
+#jemmoduleteaser [class|="calendar"] {
+    background-repeat: no-repeat;
+    width: 80px;
+    text-align: center;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+#jemmoduleteaser span.share {
+    margin-left: 95px;
+}
+
+#jemmoduleteaser [class|="calendar"] .yearteaser {
+    font-size: 6px;
+    height: 5px;
+    color: #e1e1e1;
+}
+
+#jemmoduleteaser [class|="calendar"] .monthteaser {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: #213f25;
+    border-radius: 8px 8px 0 0;
+    color: #FFF;
+}
+
+#jemmoduleteaser [class|="calendar"] .dayteaser {
+    font-weight: 200;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+#jemmoduleteaser [class|="calendar"] .daynumteaser {
+    font-weight: 100;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    background-color: #FFF;
+    color: #213f25;
+}
+
+div#jemmoduleteaser .eventset {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+div#jemmoduleteaser .eventbox {
+    width: 100%;
+    display: table;
+    border-top: 1px solid #FFF;
+    padding: 10px 0;
+}
+
+div#jemmoduleteaser .eventbox:first-child {
+    border: 0;
+    padding-top: 0;
+}
+
+div#jemmoduleteaser .time {
+    padding-left: 20px;
+    background: url(img/time.png) 0 center no-repeat;
+    padding-top: 2px;
+}
+
+div#jemmoduleteaser div.date {
+    padding-left: 0px;
+    padding-top: 2px;
+}
+
+div#jemmoduleteaser .category {
+    position: relative;
+    padding-left: 20px;
+    background: url(img/category.png) 0 center no-repeat;
+    font-size: smaller;
+}
+
+div#jemmoduleteaser .venue-title {
+    position: relative;
+    padding-left: 20px;
+    background: url(img/building.png) 0 center no-repeat;
+    font-size: smaller;
+}
+
+div#jemmoduleteaser .event-image-cell {
+}
+
+div#jemmoduleteaser .venue-image-cell {
+}
+
+div#jemmoduleteaser .image-preview {
+    height: 35px;
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+    background-color: white;
+    margin: 3px;
+}
+
+#jemmoduleteaser h1 {
+    margin-bottom: 30px;
+}
+
+#jemmoduleteaser h1 a {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 30px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.btn.btn-all-events {
+    display: table;
+    background-color: #1e4323;
+    text-decoration: none;
+    font-style: italic;
+    float: right;
+}
+
+.btn.btn-all-events:hover {
+    background-color: #0c2910;
+}
+
+h2.event-title {
+    margin-bottom: 3px;
+}
+
+h2.event-title a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFF;
+}
+
+h4.event-date {
+    margin-bottom: 5px;
+}
+
+h4.event-date a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.event-description {
+    margin-bottom: 3px;
+    line-height: 1.2;
+}
+
+.event-description a,
+.event-description a:hover {
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFF;
+}

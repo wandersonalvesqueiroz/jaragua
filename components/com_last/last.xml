@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+    <name>com_last</name>
+    <author>Wanderson Alves</author>
+    <creationDate>19/11/2018</creationDate>
+    <copyright>(C)2014 SDrummond. All rights reserved.</copyright>
+    <authorEmail>wanderson@sdrummond.com.br</authorEmail>
+    <authorUrl>www.sdrummond.com.br</authorUrl>
+    <version>3.8.0</version>
+    <description>COM_LAST_XML_DESCRIPTION</description>
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <files folder="site">
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+        <folder>language</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+        <folder>last.php</folder>
+        <folder>controller.php</folder>
+        <folder>index.html</folder>
+    </files>
+    <languages folder="site">
+        <language tag="pt-BR">language/pt-BR.com_last.ini</language>
+        <language tag="pt-BR">language/pt-BR.com_last.sys.ini</language>
+    </languages>
+    <administration>
+        <menu img="../media/com_last/images/menu/last.png">com_last</menu>
+        <submenu>
+            <menu link="option=com_last&amp;view=last" view="last" img="../media/com_last/images/menu/last.png" alt="Last/Last">com_last_last</menu>
+        </submenu>
+        <files folder="admin">
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>languages</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+            <filename>last.php</filename>
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+        </files>
+        <languages folder="admin">
+            <language tag="pt-BR">language/pt-BR.com_last.ini</language>
+            <language tag="pt-BR">language/pt-BR.com_last.sys.ini</language>
+        </languages>
+    </administration>
+</extension>
