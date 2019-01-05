@@ -1,6 +1,8 @@
 <div id="modcolaborators">
 
-    <h2><?= $params->get('title') ?></h2>
+    <?php if($params->get('title')): ?>
+        <h2><?= $params->get('title') ?></h2>
+    <?php endif; ?>
 
     <ul class="list-colaborators">
         <?php

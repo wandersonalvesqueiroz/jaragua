@@ -17,7 +17,10 @@ $document = JFactory::getDocument();
                 ?>
                 <h1>
                     <a href="<?= $newspaper->pdf ?>"  target="_blank">
-                        <?= $newspaper->name; ?>
+                        Ano <?= $newspaper->ano; ?><br />
+                        Edição <?= $newspaper->edicao; ?><br />
+                        <?= $newspaper->mesesano; ?>
+                        
                     </a>
                 </h1>
                 <div class="newspaper-img" style="background-image: url(<?php echo $image; ?>)">

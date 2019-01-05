@@ -28,7 +28,31 @@
                label="JFIELD_ALIAS_LABEL"
                description="JFIELD_ALIAS_DESC"
         />
-
+        
+        <field name="ano"
+               type="text"
+               class="inputbox"
+               size="40"
+               label="JFIELD_ANO_LABEL"
+               description="JFIELD_ANO_DESC"
+        />
+        
+        <field name="edicao"
+               type="text"
+               class="inputbox"
+               size="40"
+               label="JFIELD_EDICAO_LABEL"
+               description="JFIELD_EDICAO_DESC"
+        />
+        
+        <field name="mesesano"
+               type="text"
+               class="inputbox"
+               size="40"
+               label="JFIELD_MESESANO_LABEL"
+               description="JFIELD_MESESANO_DESC"
+        />
+        
         <field name="image"
                type="media"
                directory="jornais"

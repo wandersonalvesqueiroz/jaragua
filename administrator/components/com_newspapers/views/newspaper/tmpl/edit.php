@@ -46,6 +46,9 @@ $document->addScript('components/com_newspapers/assets/js/script.js');
                 <div class="span12">
                     <div class="row-fluid form-horizontal-desktop">
                         <div class="span6">
+                            <?php echo $this->form->renderField('ano'); ?>
+                            <?php echo $this->form->renderField('edicao'); ?>
+                            <?php echo $this->form->renderField('mesesano'); ?>
                             <?php echo $this->form->renderField('image'); ?>
                             <?php echo $this->form->renderField('pdf'); ?>
                         </div>

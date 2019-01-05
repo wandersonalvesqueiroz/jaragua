@@ -1,0 +1,117 @@
+.moduletable-cotas {
+    background-color: #e6e6e7;
+    padding: 20px;
+}
+
+.moduletable-cotas h3 {
+    font-weight: 600;
+}
+
+#desc-cota p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#form-cota .form-cota {
+    width: 100%;
+    display: table;
+}
+
+#form-cota .form-cota > div {
+    margin: auto;
+    display: table;
+    width: 100%;
+}
+
+#form-cota .form-cota > div fieldset {
+    margin: auto;
+}
+
+#form-cota .form-cota > div fieldset input {
+    width: calc(100% - 24px);
+    padding: 5px 12px;
+    border: 0;
+    color: #676565;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+#form-cota .form-cota > div fieldset input.btn {
+    float: right;
+    width: auto;
+    color: #FFF;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 0;
+    font-size: 14px;
+}
+
+.loading {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    height: 100vh;
+    left: 0;
+}
+
+.loading i {
+    color: #FFF;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: table;
+    left: 50%;
+    top: 50%;
+    transition: linear 100ms;
+    position: absolute;
+}
+
+.enviado-overlay {
+    position: fixed;
+    z-index: 9998;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div.enviado {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: url("../../../../images/backjunte.jpg") no-repeat;
+    width: 488px;
+    height: 296px;
+    position: absolute;
+    z-index: 9999;
+    display: table;
+    left: 50%;
+    top: 50%;
+    transition: linear 100ms;
+}
+
+div.enviado > div.fechar {
+    padding: 5px;
+    text-align: right;
+    display: table;
+    width: calc(100% - 10px);
+    line-height: 1;
+}
+
+div.enviado > div.fechar i {
+    cursor: pointer;
+}
+
+div.enviado h1 {
+    font-family: 'quicksandbold';
+    color: #676565;
+    font-size: 18px;
+    text-align: center;
+    margin: 40px 0 10px 0;
+}
