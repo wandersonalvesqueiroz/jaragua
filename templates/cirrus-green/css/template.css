@@ -413,6 +413,7 @@ button {
 #searchForm button,
 #contact-form button.validate,
 #mailto-window button,
+.readmore a,
 .btn {
     font-weight: 200;
     font-size: 14px;
@@ -421,6 +422,8 @@ button {
     border: 0;
     padding: 5px 20px;
     margin: 0;
+    text-decoration: none;
+    display: table;
 }
 
 #login-form input.button:hover,
@@ -432,6 +435,7 @@ button {
 #searchForm button:hover,
 #contact-form button.validate:hover,
 #mailto-window button:hover,
+.readmore a:hover,
 .btn:hover {
     color: #fff;
     text-decoration: none;
@@ -439,7 +443,8 @@ button {
 }
 
 .readmore a {
-    font-weight: 700;
+    float: right;
+    font-style: italic;
 }
 
 /** Header **/
@@ -511,6 +516,7 @@ button {
     border-radius: 0 5px 5px 0;
     font-size: 18px;
     margin-left: -4px;
+    display: inline-block;
 }
 
 input.search-query {
@@ -522,6 +528,7 @@ input.search-query {
     padding: 0 15px;
     line-height: 30px;
     vertical-align: top;
+    display: inline-block;
 }
 
 .btn-green {
@@ -614,6 +621,11 @@ input.search-query {
     text-align: center;
 }
 
+#topmenu span {
+    cursor: default;
+}
+
+#topmenu span,
 #topmenu a {
     font-size: 14px;
     font-weight: 400;
@@ -625,6 +637,9 @@ input.search-query {
     text-transform: uppercase;
 }
 
+#topmenu span:hover,
+#topmenu li.active span,
+#topmenu li.active span:hover,
 #topmenu a:hover,
 #topmenu li.active a,
 #topmenu li.active a:hover {
@@ -696,6 +711,10 @@ input.search-query {
     margin: auto;
 }
 
+#content-menu_wrap img {
+    max-width: 100%;
+}
+
 /** Breadcrumbs **/
 
 #breadcrumbs {
@@ -743,6 +762,7 @@ input.search-query {
     list-style-type: none;
     padding: 10px 0;
     background-color: #e6e6e7;
+    margin: 0;
 }
 
 #leftmenu ul.menu li,
@@ -860,7 +880,6 @@ li.edit-icon a {
 }
 
 dl.article-info {
-    clear: both;
     margin-left: 0;
     padding: 0px;
     font-size: 0.86em;
@@ -1183,7 +1202,8 @@ li.next {
 }
 
 .pagination ul {
-    margin-left: -28px;
+    padding: 0 0 0 20px;
+    text-align: center;
 }
 
 .pagination ul li span,
@@ -1192,6 +1212,9 @@ li.next {
     padding-right: 6px;
     margin-left: 0px;
     margin-right: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 #adminForm div.pagination ul {
@@ -1214,7 +1237,10 @@ li.next {
 }
 
 p.counter {
-    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 0 5px 0;
+    font-weight: 600;
 }
 
 /** Blog **/
@@ -1259,7 +1285,9 @@ p.counter {
 
 .items-row {
     overflow: hidden;
-    margin-bottom: 10px !important;
+    margin-bottom: 40px !important;
+    border-bottom: 1px solid #edeef0;
+    padding-bottom: 10px;
 }
 
 .column-2 {
@@ -2160,20 +2188,99 @@ body.contentpane {
     font-weight: 400;
 }
 
-ul.list-pdf{
+ul.list-pdf {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-ul.list-pdf li{
+ul.list-pdf li {
     display: inline-block;
     margin: 0 5px 5px 5px;
 }
 
-ul.list-pdf li a{
+ul.list-pdf li a {
     text-decoration: none;
     font-weight: 600;
     display: table;
     border-radius: 3px;
+}
+
+.img-intro-right {
+    float: right;
+    margin: 0 0 10px 20px;
+}
+
+.img-intro-left {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.blog .img-intro-left,
+.blog .img-intro-right {
+    max-width: 25%;
+}
+
+.img-fulltext-right {
+    max-width: 25%;
+    float: right;
+    margin: 0 0 10px 20px;
+}
+
+.img-fulltext-left {
+    max-width: 25%;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.img-intro-right figcaption,
+.img-intro-left figcaption,
+.img-fulltext-right figcaption,
+.img-fulltext-left figcaption {
+    font-size: 12px;
+    font-family: 'source_sans_pro_li';
+    color: #999;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.item-page h2 {
+    font-weight: bold;
+    border-bottom: 1px solid #504f51;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.moduletable-mais-lidos {
+    padding: 20px;
+    background-color: #0a3d57;
+    text-align: center;
+}
+
+.moduletable-mais-lidos h3 {
+    color: #e6e6e7;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.moduletable-mais-lidos ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.moduletable-mais-lidos li {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.moduletable-mais-lidos li a {
+    color: #e6e6e7;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.moduletable-mais-lidos li a:hover {
+    color: #FFF;
 }

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+    type="module"
+    version="3.7"
+    client="site"
+    method="upgrade">
+    <name>mod_list_cotas</name>
+    <author>Wanderson Alves</author>
+    <creationDate>Dez 2018</creationDate>
+    <copyright>Copyright(C) - 2018 - Sdrummond Soluções em Tecnologia. All rights reserved.</copyright>
+    <authorEmail>wanderson@sdrummond.com.br</authorEmail>
+    <authorUrl>www.sdrummond.com.br</authorUrl>
+    <version>1.0.1</version>
+    <description>MOD_LIST_COTAS_XML_DESCRIPTION</description>
+    <files>
+        <filename module="mod_list_cotas">mod_list_cotas.php</filename>
+        <folder>tmpl</folder>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>		
+        <filename>mod_list_cotas.xml</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="list_cotas"
+                       type="textarea"
+                       label="Dados Cota"
+                       description="nome=Nome do Associado/Nome do Associado;telefone=(31) 99999-9999/(31) 99999-9999/(31) 99999-9999;email=associado@email.com/associado@email.com"
+                       rows="20"
+                       cols="5"
+                />
+            </fieldset>
+            <fieldset name="advanced">
+                <field
+                        name="moduleclass_sfx"
+                        type="textarea"
+                        label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                        description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"
+                        rows="3"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
