@@ -948,9 +948,8 @@ class JoomGalleryViewDetail extends JoomGalleryView
 
       if($this->_config->get('jg_bbcodelink'))
       {
-        $current_uri    = JURI::getInstance(JURI::base());
-        $current_host   = $current_uri->getHost();
-        $current_scheme = $current_uri->getScheme();
+        $current_uri  = JURI::getInstance(JURI::base());
+        $current_host = $current_uri->toString(array('scheme', 'host', 'port'));
 
         $params->set('show_bbcode', 1);
 
@@ -959,10 +958,9 @@ class JoomGalleryViewDetail extends JoomGalleryView
           )
         {
           // Ensure that the correct host and path is prepended
-          $uri = JFactory::getUri($image->img_src);
-          $uri->setScheme($current_scheme);
+          $uri  = JFactory::getUri($image->img_src);
           $uri->setHost($current_host);
-          $params->set('bbcode_img', str_replace('&', '&amp;', $uri->toString()));
+          $params->set('bbcode_img', str_replace(array('&', 'http://http://'), array('&amp;', 'http://'), $uri->toString()));
         }
 
         if(    $this->_config->get('jg_bbcodelink') == 2
@@ -972,8 +970,7 @@ class JoomGalleryViewDetail extends JoomGalleryView
           $url = JRoute::_('index.php?view=detail&id='.$image->id).JHTML::_('joomgallery.anchor');
 
           // Ensure that the correct host and path is prepended
-          $uri = JFactory::getUri($url);
-          $uri->setScheme($current_scheme);
+          $uri  = JFactory::getUri($url);
           $uri->setHost($current_host);
           $params->set('bbcode_url', str_replace('&', '&amp;', $uri->toString()));
         }

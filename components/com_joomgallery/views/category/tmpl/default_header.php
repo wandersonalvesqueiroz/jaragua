@@ -1,11 +1,9 @@
 <?php defined('_JEXEC') or die('Direct Access to this location is not allowed.'); ?>
 <div class="gallery">
-<?php if($this->params->get('show_page_heading', 0)): ?>
-  <h2>
-    <?php echo $this->escape($this->params->get('page_heading')); ?>
-  </h2>
-<?php endif;
-      if($this->params->get('show_top_modules', 0)): ?>
+  <h1>
+    <?php echo $this->escape($this->images[0]->name); ?>
+  </h1>
+<?php if($this->params->get('show_top_modules', 0)): ?>
   <div class="jg_topmodules">
 <?php foreach($this->modules['top'] as $module): ?>
     <div class="jg_topmodule">
@@ -20,18 +18,12 @@
       <?php echo JHTML::_('joomgallery.icon', 'home.png', 'COM_JOOMGALLERY_COMMON_HOME', 'hspace="6" border="0" align="middle"'); ?></a>
     <?php echo $this->pathway; ?>
   </div>
-<?php endif;
-      if($this->params->get('show_header_search', 0)): ?>
-  <div class="jg_search">
-    <form action="<?php echo JRoute::_('index.php?view=search'); ?>" method="post">
-      <input title="<?php echo JText::_('COM_JOOMGALLERY_COMMON_SEARCH'); ?>" type="text" name="sstring" class="inputbox" onblur="if(this.value=='') this.value='<?php echo JText::_('COM_JOOMGALLERY_COMMON_SEARCH', true); ?>';" onfocus="if(this.value=='<?php echo  JText::_('COM_JOOMGALLERY_COMMON_SEARCH', true); ?>') this.value='';" value="<?php echo JText::_('COM_JOOMGALLERY_COMMON_SEARCH'); ?>" />
-    </form>
-  </div>
-<?php endif;
-      if($this->params->get('show_header_backlink')): ?>
+<?php endif; ?>
+<?php if($this->params->get('show_header_backlink')): ?>
   <div class="jg_back">
-    <a href="<?php echo $this->backtarget; ?>">
-      <?php echo $this->backtext; ?></a>
+    <a href="<?php echo $this->backtarget; ?>" class="btn">
+        <i class="fas fa-arrow-left"></i> Voltar
+    </a>
   </div>
 <?php endif;
       if($this->params->get('show_mygal')): ?>
@@ -92,10 +84,5 @@
         if($this->params->get('show_header_allhits', 0)): ?>
     <?php echo JText::sprintf('COM_JOOMGALLERY_COMMON_NUMB_HITS_ALL_IMAGES', $this->numberofhits); ?>
 <?php   endif; ?>
-  </div>
-<?php endif;
-      if($this->params->get('show_header_toplist', 0)): ?>
-  <div class="jg_toplist">
-    <?php JHTML::_('joomgallery.toplistbar');?>
   </div>
 <?php endif; ?>

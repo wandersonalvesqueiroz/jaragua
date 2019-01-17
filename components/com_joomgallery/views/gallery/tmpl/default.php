@@ -34,8 +34,8 @@ echo $this->loadTemplate('header'); ?>
 <?php     if($row->thumb_src): ?>
       <div class="jg_imgalign_gal">
         <div class="<?php echo $row->photocontainer; ?>">
-          <a title="<?php echo $row->name; ?>" href="<?php echo $row->link ?>">
-            <img src="<?php echo $row->thumb_src; ?>" class="jg_photo" alt="<?php echo $row->name; ?>" />
+          <a title="<?php echo $row->name; ?>" href="<?php echo $row->link ?>"
+             style="background-image: url(<?php echo $row->thumb_src; ?>);">
           </a>
         </div>
       </div>
@@ -142,3 +142,14 @@ echo $this->loadTemplate('header'); ?>
   </div>
 <?php endif;
 echo $this->loadTemplate('footer');
+?>
+
+<script>
+    jQuery(document).ready(function ($) {
+        $(window).on('resize', function () {
+            $('.jg_imgalign_gal').height($('.jg_element_gal').width() * 0.75);
+        }).trigger('resize');
+    });
+</script>
+
+<script type="text/javascript" src="components/com_joomgallery/js/lightbox-plus-jquery.js"></script>

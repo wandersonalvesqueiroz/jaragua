@@ -26,20 +26,19 @@ class JoomGalleryViewCategory extends JoomGalleryView
    * of the current category and its sub-categories
    *
    * @access  public
-   * @param   string  $tpl  The name of the template file to parse
    * @return  void
    * @since   1.5.7
    */
-  function display($tpl = null)
+  function display()
   {
-    $params     = $this->_mainframe->getParams();
+    $params     = & $this->_mainframe->getParams();
     $feedEmail  = ($this->_mainframe->getCfg('feed_email')) ? $this->_mainframe->getCfg('feed_email') : 'author';
     $siteEmail  = $this->_mainframe->getCfg('mailfrom');
 
     // Get the images data from the model
     JRequest::setVar('limit', $this->_config->get('jg_category_rss'));
-    $category  = $this->get('Category');
-    $rows     = $this->get('AllImages');
+    $category  = & $this->get('Category');
+    $rows     = & $this->get('AllImages');
 
     $this->_doc->link = JRoute::_('index.php?view=category&catid='.$category->cid);
 

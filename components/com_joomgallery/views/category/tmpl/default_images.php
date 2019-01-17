@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="components/com_joomgallery/css/lightbox.css" type="text/css">
 <?php defined('_JEXEC') or die('Direct Access to this location is not allowed.');
       if($this->_config->get('jg_anchors')): ?>
   <a name="category"></a>
@@ -31,8 +32,9 @@
           $row = $this->images[$index]; ?>
     <div class="jg_element_cat">
       <div class="jg_imgalign_catimgs">
-        <a <?php echo $row->atagtitle; ?> href="<?php echo $row->link; ?>" class="jg_catelem_photo jg_catelem_photo_align">
-          <img src="<?php echo $row->thumb_src; ?>" class="jg_photo" <?php echo $row->imgwh; ?> alt="<?php echo $row->imgtitle; ?>" /></a>
+        <a <?php echo $row->atagtitle; ?> href="<?php echo substr($row->link, 0, -28); ?>"
+            data-lightbox="example-set" class="jg_catelem_photo jg_catelem_photo_align"
+            style="background-image: url(<?php echo $row->thumb_src; ?>);"></a>
       </div>
 <?php if($row->show_elems): ?>
       <div class="jg_catelem_txt">
@@ -158,4 +160,14 @@
   <div class="pagination">
     <?php echo $this->pagination->getPagesLinks(); ?>
   </div>
-<?php endif;
+<?php endif; ?>
+
+<script>
+    jQuery(document).ready(function ($) {
+        $(window).on('resize', function () {
+            $('.jg_element_cat').height($('.jg_element_cat').width() * 0.75);
+        }).trigger('resize');
+    });
+</script>
+
+<script type="text/javascript" src="components/com_joomgallery/js/lightbox-plus-jquery.js"></script>

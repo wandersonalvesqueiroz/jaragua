@@ -4,18 +4,6 @@
     &nbsp;
   </div>
 <?php endif;
-      if($this->params->get('show_footer_toplist', 0)): ?>
-  <div class="jg_toplist">
-    <?php JHTML::_('joomgallery.toplistbar'); ?>
-  </div>
-<?php endif;
-      if($this->params->get('show_rmsm_legend', 0)): ?>
-  <div class="jg_rmsm_legend">
-    <div class="jg_rm">
-      <?php echo JHtml::_('joomgallery.icon', 'group_key.png', 'COM_JOOMGALLERY_COMMON_TIP_YOU_NOT_ACCESS_THIS_CATEGORY'); ?> <?php echo  JText::_('COM_JOOMGALLERY_COMMON_RESTRICTED_CATEGORIES'); ?>
-    </div>
-  </div>
-<?php endif;
       if($this->params->get('show_footer_allpics', 0) OR $this->params->get('show_footer_allhits', 0)): ?>
   <div class="jg_gallerystats">
 <?php   if($this->params->get('show_footer_allpics', 0)): ?>
