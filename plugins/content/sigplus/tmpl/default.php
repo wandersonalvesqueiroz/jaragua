@@ -59,3 +59,12 @@ if (!empty($images)) {
 } else {
 	print JText::_('SIGPLUS_GALLERY_EMPTY');
 }
+
+?>
+<script>
+    jQuery(document).ready(function ($) {
+        $(window).on('resize', function () {
+        $('.sigplus-gallery ul li').height($('.sigplus-gallery ul li').width() * 0.75);
+    }).trigger('resize');
+    });
+</script>

@@ -40,25 +40,29 @@ foreach ($properties as $property) {
 }
 
 // HTML for a single image in the gallery
-print '<a class="sigplus-image"'.$style_attr.' href="'.$url.'"'.$data_attr.'>';
+$backgroundImage = 'background-image:url('.$url.');';
+
+print '<a class="sigplus-image"'.$style_attr.' 
+          href="'.$url.'" '.$data_attr.'
+          style="'.$backgroundImage.' ">';
 $title_text = strip_tags($title);
-print '<img class="sigplus-preview" src="'.htmlspecialchars($preview_url).'" width="'.$preview_width.'" height="'.$preview_height.'" alt="'.htmlspecialchars($title_text).'"';
-if (version_compare(JVERSION, '3.8.0') != 0) {  // address a bug in Joomla 3.8.0 SEF URL regular expression
-	$srcset = array();
-	if (isset($retina_url) && !empty($retina_width)) {
-		$srcset[] = htmlspecialchars($retina_url).' '.$retina_width.'w';
-	}
-	if (isset($preview_url) && !empty($preview_width)) {
-		$srcset[] = htmlspecialchars($preview_url).' '.$preview_width.'w';
-	}
-	if (isset($thumb_url) && !empty($thumb_width)) {
-		$srcset[] = htmlspecialchars($thumb_url).' '.$thumb_width.'w';
-	}
-	if (!empty($srcset)) {
-		print ' srcset="'.implode(', ', $srcset).'" sizes="'.$preview_width.'px"';
-	}
-}
-print ' />';
+//print '<img class="sigplus-preview" src="'.htmlspecialchars($preview_url).'" width="'.$preview_width.'" height="'.$preview_height.'" alt="'.htmlspecialchars($title_text).'"';
+//if (version_compare(JVERSION, '3.8.0') != 0) {  // address a bug in Joomla 3.8.0 SEF URL regular expression
+//	$srcset = array();
+//	if (isset($retina_url) && !empty($retina_width)) {
+//		$srcset[] = htmlspecialchars($retina_url).' '.$retina_width.'w';
+//	}
+//	if (isset($preview_url) && !empty($preview_width)) {
+//		$srcset[] = htmlspecialchars($preview_url).' '.$preview_width.'w';
+//	}
+//	if (isset($thumb_url) && !empty($thumb_width)) {
+//		$srcset[] = htmlspecialchars($thumb_url).' '.$thumb_width.'w';
+//	}
+//	if (!empty($srcset)) {
+//		print ' srcset="'.implode(', ', $srcset).'" sizes="'.$preview_width.'px"';
+//	}
+//}
+//print ' />';
 print '</a>';
 print '<div class="sigplus-summary">'.$summary.'</div>';
 if ($download_url) {
