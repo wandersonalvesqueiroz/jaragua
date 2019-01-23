@@ -61,8 +61,8 @@ class JemCalendar
 	*/
 	var $yearNavBack=" &lt;&lt; "; // Previous year, this could be an image link
 	var $yearNavForw=" &gt;&gt; "; // Next year, this could be an image link
-	var $monthNavBack=" &lt;&lt; "; // Previous month, this could be an image link
-	var $monthNavForw=" &gt;&gt; "; // Next month, this could be an image link
+	var $monthNavBack="<img src='../../../images/prev_event.png'>"; // Previous month, this could be an image link
+	var $monthNavForw="<img src='../../../images/next_event.png'>"; // Next month, this could be an image link
 	var $selBtn="Go"; // value of the date picker button (if enabled)
 	var $monthYearDivider=" "; // the divider between month and year in the month`s title
 	/*
@@ -489,27 +489,27 @@ class JemCalendar
 	*/
 	function mkMonthTitle() {
 		if (!$this->monthNav) {
-			$out="<tr><td class=\"".$this->cssMonthTitle."\" colspan=\"".$this->monthSpan."\">";
+			$out="<tr><th class=\"".$this->cssMonthTitle."\" colspan=\"".$this->monthSpan."\">";
 			$out.=$this->getMonthName().$this->monthYearDivider.$this->actyear;
-			$out.="</td></tr>\n";
+			$out.="</th></tr>\n";
 		} else {
-			$out = "<tr><td class=\"".$this->cssMonthNav."\" colspan=\"2\" style=\"text-align:right;\">";
+			$out = "<tr><th class=\"".$this->cssMonthNav."\" colspan=\"2\" style=\"text-align:right;\">";
 			if ($this->actmonth==1) { // january
 				$out.=$this->mkUrl($this->actyear-1,"12");
 			} else {
 				$out.=$this->mkUrl($this->actyear,$this->actmonth-1);
 			}
-			$out .= $this->monthNavBack."</a></td>";
-			$out .= "<td class=\"".$this->cssMonthTitle."\" colspan=\"".($this->monthSpan-4)."\">";
-			$out .= $this->getMonthName().$this->monthYearDivider.$this->actyear."</td>";
-			$out .= "<td class=\"".$this->cssMonthNav."\" colspan=\"2\" style=\"text-align:left;\">";
+			$out .= $this->monthNavBack."</a></th>";
+			$out .= "<th class=\"".$this->cssMonthTitle."\" colspan=\"".($this->monthSpan-4)."\">";
+			$out .= $this->getMonthName().$this->monthYearDivider.$this->actyear."</th>";
+			$out .= "<th class=\"".$this->cssMonthNav."\" colspan=\"2\" style=\"text-align:left;\">";
 			if ($this->actmonth==12) { //december
 				$out.=$this->mkUrl($this->actyear+1,"1");
 			}
 			else {
 				$out.=$this->mkUrl($this->actyear,$this->actmonth+1);
 			}
-			$out.=$this->monthNavForw."</a></td></tr>\n";
+			$out.=$this->monthNavForw."</a></th></tr>\n";
 		}
 		return $out;
 	}

@@ -344,7 +344,7 @@ defined('_JEXEC') or die;
 	echo $this->cal->showMonth();
 	?>
 
-	<?php if (($displayLegend == 1) || ($displayLegend == 0)) : ?>
+	<?php if ($displayLegend == 1) : ?>
 	<!-- Calendar legend below -->
 	<div id="jlcalendarlegend">
 

@@ -23,11 +23,6 @@ class JemOutput
 	{
 		$app = JFactory::getApplication();
 
-		if ($app->input->get('print','','int')) {
-			return;
-		} else {
-			echo '<font color="grey">Powered by <a href="http://www.joomlaeventmanager.net" target="_blank">JEM</a></font>';
-		}
 	}
 
 	/**

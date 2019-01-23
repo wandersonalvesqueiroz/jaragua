@@ -2,11 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02eb3bb4-23d8-4b7a-9678-418fb810c7cd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/05f6251892f7158110b437893a8129fc.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/0b87144df1683c974ce1736f3c13c4c0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/1135b37c520b0073dc8437804cf49692.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/160e4aa7c133be923747366207f2e0c5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/2221257d3e8a4577745cd0e79b535c75.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/3708e65333fdbc259a82a91d84e58935.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/3859ee2e2bf7a44496c4d98e2d1f8d33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/3944b8b3f4641f4f25b7de96798adc82.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/44918fa73179c89424098c943def7950.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/4a0366cfb2dd74159fc726d6e4034b92.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/5fc76ab7801e02abe8b4210f1c110d5e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/6c9d2a6d977aef768b8b3df06b343f9d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/6d0ac8689345c25a692ff70ef26dbe94.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/6f1cd8e75236c314a72ea16e072e9878.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/7adbc695245e2d8453855a3105d63b8d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/7c3b62264d7c882b33a82eecc14ffc63.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/95517b7dc6877d04c961654067020650.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/9a1e3fcf54b56c3e7fedb762d9ac1eec.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/9b6efe80da129e3ed53368efbd0bca11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/a151127a5dc1e2df3cf93d59caf92dc4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/a40c2a082d77fc00b799095d9507a986.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/af116b914ee1a95fec6f3b2dbfcd663d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/b43190c66c71eaeb44a850d4bd1ad0a9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/b5b86f88063586615d86c7f80a45e879.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/bb88d77c8eb4b5a148594110fe8a885b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/c0625e1b20f17dccdce5a9ff44ecbe3f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/d1717e0c03fbf44e4cab6fa260349b20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/d1c6ccc3024c13cb1f675181562d4897.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/da7295c602c7cfb41f8b96acc8841ebf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/dfe535d5b15dbcca35525772c40b185f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/e825e6250244aa6c0611edd759222c19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/ea96df918067bb3203eb14b74b0ff2a1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/ebec34cc434fc89e67213536d668bc98.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/ec494e78057b691c6c8c5d0ec8aee06d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/eee5e15f053a9ecbb0a6b2462c5402b6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/f47d2486d27f1c392f1ba6f5f6c930b0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cache/preview/fc94a5c96173e9c90de9d01323651a0c.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/preview/1227917c1e08302de18f541cea75ec47.jpg" afterPath="$PROJECT_DIR$/cache/preview/1227917c1e08302de18f541cea75ec47.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/preview/1bba27de7dd2c597e2a0488da7ec0039.jpg" afterPath="$PROJECT_DIR$/cache/preview/1bba27de7dd2c597e2a0488da7ec0039.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/preview/34eabfb2c9db2c0135d27af26403e492.jpg" afterPath="$PROJECT_DIR$/cache/preview/34eabfb2c9db2c0135d27af26403e492.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/preview/45143d675c7b998e804dbc2bfb5f3e0e.jpg" afterPath="$PROJECT_DIR$/cache/preview/45143d675c7b998e804dbc2bfb5f3e0e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/preview/47f451bab1b563d839554e85b0515674.jpg" afterPath="$PROJECT_DIR$/cache/preview/47f451bab1b563d839554e85b0515674.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/preview/ff9ebe4dd6213801c9fa522b6edbe9e7.jpg" afterPath="$PROJECT_DIR$/cache/preview/ff9ebe4dd6213801c9fa522b6edbe9e7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/thumb/1ff53bd9f97016ece6b4529e7748c1ac.jpg" afterPath="$PROJECT_DIR$/cache/thumb/1ff53bd9f97016ece6b4529e7748c1ac.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/thumb/5af91116354cb7f275555f7e1044c3c7.jpg" afterPath="$PROJECT_DIR$/cache/thumb/5af91116354cb7f275555f7e1044c3c7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/thumb/a80b75fa90766693df734f95bdf55c3b.jpg" afterPath="$PROJECT_DIR$/cache/thumb/a80b75fa90766693df734f95bdf55c3b.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.plg_content_sigplus.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.plg_content_sigplus.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/sigplus/css/sigplus.css" afterPath="$PROJECT_DIR$/media/sigplus/css/sigplus.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/content/sigplus/tmpl/default.php" afterPath="$PROJECT_DIR$/plugins/content/sigplus/tmpl/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/content/sigplus/tmpl/item.php" afterPath="$PROJECT_DIR$/plugins/content/sigplus/tmpl/item.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jem/classes/calendar.class.php" afterPath="$PROJECT_DIR$/components/com_jem/classes/calendar.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jem/classes/output.class.php" afterPath="$PROJECT_DIR$/components/com_jem/classes/output.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jem/views/calendar/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_jem/views/calendar/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_jem/css/calendar.css" afterPath="$PROJECT_DIR$/media/com_jem/css/calendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/com_jem/css/jem.css" afterPath="$PROJECT_DIR$/media/com_jem/css/jem.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/cirrus-green/css/template.css" afterPath="$PROJECT_DIR$/templates/cirrus-green/css/template.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,119 +64,87 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="default_images.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_joomgallery/views/category/tmpl/default_images.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="170" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <marker date="1547688074949" expanded="false" signature="8872:8878" ph=" " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default_header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_joomgallery/views/category/tmpl/default_header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins/content/sigplus/tmpl/item.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="42" column="47" lean-forward="false" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="default.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/content/sigplus/tmpl/default.php">
+        <entry file="file://$PROJECT_DIR$/components/com_jem/views/calendar/tmpl/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="66" column="85" lean-forward="false" selection-start-line="66" selection-start-column="85" selection-end-line="66" selection-end-column="85" />
+            <state relative-caret-position="17">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sigplus.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media/sigplus/css/sigplus.css">
+      <file leaf-file-name="calendar.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_jem/classes/calendar.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/content/sigplus/script.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1071">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="447">
+              <caret line="63" column="53" lean-forward="false" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
               <folding>
-                <marker date="1545438223000" expanded="true" signature="6789:6913" ph="SELECT param... ##__extensions" />
-                <marker date="1545438223000" expanded="true" signature="7499:7657" ph="UPDATE ##__ex... " />
+                <marker date="1548196923733" expanded="true" signature="20750:20767" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sigplus.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/content/sigplus/sigplus.xml">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cirrus-green/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="73" column="150" lean-forward="true" selection-start-line="73" selection-start-column="150" selection-end-line="73" selection-end-column="150" />
+            <state relative-caret-position="1904">
+              <caret line="140" column="82" lean-forward="false" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="params.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/content/sigplus/core/params.php">
+      <file leaf-file-name="jem.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/media/com_jem/css/jem.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4801">
-              <caret line="1266" column="72" lean-forward="true" selection-start-line="1266" selection-start-column="72" selection-end-line="1266" selection-end-column="72" />
+            <state relative-caret-position="228">
+              <caret line="429" column="19" lean-forward="true" selection-start-line="429" selection-start-column="19" selection-end-line="429" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/content/sigplus/core/core.php">
+      <file leaf-file-name="calendar.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/media/com_jem/css/calendar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="3270" column="0" lean-forward="true" selection-start-line="3270" selection-start-column="0" selection-end-line="3270" selection-end-column="0" />
+            <state relative-caret-position="177">
+              <caret line="97" column="36" lean-forward="false" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cirrus-green/css/template.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="2295" column="12" lean-forward="false" selection-start-line="2295" selection-start-column="12" selection-end-line="2295" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_jem/classes/output.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
-                <marker date="1547771994875" expanded="true" signature="10977:11086" ph="INSERT INTO $... " />
-                <marker date="1547771994875" expanded="true" signature="14594:14703" ph="INSERT INTO $... " />
-                <marker date="1547771994875" expanded="true" signature="17115:17142" ph="DELETE FROM " />
-                <marker date="1547771994875" expanded="true" signature="17214:17282" ph="INSERT INTO $... " />
-                <marker date="1547771994875" expanded="true" signature="25401:25522" ph="DELETE FROM " />
-                <marker date="1547771994875" expanded="true" signature="27360:27710" ph="INSERT INTO ${$db-&gt;quoteName('##__sigplus_foldercaption')}... " />
-                <marker date="1547771994875" expanded="true" signature="28315:28619" ph="INSERT INTO ${$db-&gt;quoteName('##__sigplus_caption')}... " />
-                <marker date="1547771994875" expanded="true" signature="36942:37014" ph="DELETE FROM " />
-                <marker date="1547771994875" expanded="true" signature="40623:40753" ph="DELETE FROM " />
-                <marker date="1547771994875" expanded="true" signature="44014:44304" ph="DELETE FROM " />
+                <marker date="1548118614656" expanded="true" signature="6037:6043" ph=" " />
+                <marker date="1548118614656" expanded="true" signature="29895:29930" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/cirrus-green/js/script.js">
+      <file leaf-file-name="view.html.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_jem/views/calendar/view.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="83" column="11" lean-forward="true" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+            <state relative-caret-position="102">
+              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -138,18 +154,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>unSerialize</find>
-      <find>\&lt;td\&gt;\n            \&lt;p\&gt;Musculação\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n        \&lt;td\&gt;\n            \&lt;p\&gt;Segunda a sexta\: 6h05 às 22h\&lt;\/p\&gt;\n            \&lt;p\&gt;Sábado\: 8 às 14h\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n        \&lt;td\&gt;\n            \&lt;p\&gt;Horário livre\: R\$ 55\,00\&lt;\/p\&gt;\n            \&lt;p\&gt;Horário promocional \(11 às 15h\)\: R\$ 55\,00\&lt;\/p\&gt;\n            \&lt;p\&gt;Avaliação Física\/Fisioterápica\: R\$ 50\,00\&lt;\/p\&gt;\n            \&lt;p\&gt;Reavaliação\: R\$ 40\,00\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n    \&lt;\/tr\&gt;\n    \&lt;tr\&gt;\n        \&lt;td\&gt;\n            \&lt;p\&gt;Spinning\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n        \&lt;td\&gt;\n            \&lt;p\&gt;Segunda\, quarta e sexta\: 7h15\, 8h15\, 18h30\, 19h30\, 20h30\&lt;br \/\&gt; Terça e quinta\: 7h15\, 8h15\, 18h30\, 19h30\, 20h30\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n        \&lt;td\&gt;\n            \&lt;p\&gt;2x\/semana\: R\$ 55\,00\&lt;\/p\&gt;\n            \&lt;p\&gt;3x\/semana\: R\$ 70\,00\&lt;br \/\&gt; 5x\/semana\: R\$ 90\,00\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n    \&lt;\/tr\&gt;\n    \&lt;tr\&gt;\n        \&lt;td\&gt;\n            \&lt;p\&gt;Musculação \+ Spinning\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n        \&lt;td\&gt;\n            \&lt;p\&gt;\(Idem acima\)\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n        \&lt;td\&gt;\n            \&lt;p\&gt;2x\/semana\: R\$ 100\,00\&lt;br \/\&gt; 3x\/semana\: R\$ 110\,00\&lt;br \/\&gt; 5x\/semana\: R\$ 130\,00\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n    \&lt;\/tr\&gt;\n    \&lt;tr\&gt;\n        \&lt;td\&gt;\n            \&lt;p\&gt;Espaço Fitness \&lt;em\&gt;\(Alongamento\, Mix Localizada\, Mix Trainning\)\&lt;\/em\&gt;\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n        \&lt;td\&gt;\n            \&lt;p\&gt;Alongamento\: terça e quinta\, 9h15 e 16h30\&lt;br \/\&gt; Mix Localizada\: terça e quinta\, 18h10\; segunda\, quarta e sexta\, 8h10\&lt;br \/\&gt; Mix Trainning\: segunda\, quarta e sexta\, 16h30\; sábado\, 9h30\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n        \&lt;td\&gt;\n            \&lt;p\&gt;1x\/semana\: R\$ 25\,00\&lt;br \/\&gt; 2x\/semana\: R\$ 35\,00\&lt;br \/\&gt; 3x\/semana\: R\$ 45\,00\&lt;br \/\&gt; 4x\/semana\: R\$ 55\,00\&lt;\/p\&gt;\n        \&lt;\/td\&gt;\n    \&lt;\/tr\&gt;\n    \&lt;\/tbody\&gt;\n\&lt;\/table\&gt;</find>
-      <find>Wanderson</find>
-      <find>leftmenu</find>
-      <find>&lt;/p&gt;</find>
-      <find>newspaper</find>
-      <find>Newspaper</find>
-      <find>NEWSPAPER</find>
-      <find>lightbox-plus-jquery.js</find>
-      <find>.jg_element_cat</find>
-      <find>jg_showtitle</find>
-      <find>showtitle</find>
       <find>jg_photo_container</find>
       <find>jg_imgalign_gal</find>
       <find>jg_imgalign_catimgs</find>
@@ -168,6 +172,18 @@
       <find>preview_height</find>
       <find>title</find>
       <find>width</find>
+      <find>countModules</find>
+      <find>calendarButtons</find>
+      <find>displayLegend</find>
+      <find>Powered by</find>
+      <find>cssMonthNa</find>
+      <find>jlcalendar jem_calendar</find>
+      <find>monthnavigation</find>
+      <find>monthNavBack</find>
+      <find>cssMonthNav</find>
+      <find>fas fa-angle-double-left</find>
+      <find>$cssMonthNav</find>
+      <find>rgba</find>
     </findStrings>
     <replaceStrings>
       <replace>url('fonts/</replace>
@@ -207,8 +223,10 @@
       <dir>C:\xampp\htdocs\jaragua\components</dir>
       <dir>C:\xampp\htdocs\jaragua\modules\mod_colaborators</dir>
       <dir>C:\xampp\htdocs\jaragua\administrator\components\com_joomgallery</dir>
-      <dir>C:\xampp\htdocs\jaragua</dir>
       <dir>C:\xampp\htdocs\jaragua\plugins\content\sigplus</dir>
+      <dir>C:\xampp\htdocs\jaragua\templates</dir>
+      <dir>C:\xampp\htdocs\jaragua</dir>
+      <dir>C:\xampp\htdocs\jaragua\components\com_jem</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -217,14 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/administrator/language/en-GB/en-GB.ini" />
-        <option value="$PROJECT_DIR$/modules/mod_acymailing/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/modules/mod_acymailing/mod_acymailing.php" />
-        <option value="$PROJECT_DIR$/language/pt-BR/pt-BR.com_acymailing.ini" />
-        <option value="$PROJECT_DIR$/components/com_newspapers/views/evento/tmpl/default.xml" />
-        <option value="$PROJECT_DIR$/components/com_newspapers/views/inscrever/tmpl/default.xml" />
-        <option value="$PROJECT_DIR$/components/com_newspapers/views/newspapers/tmpl/default.xml" />
-        <option value="$PROJECT_DIR$/components/com_newspapers/controllers/newspapers.php" />
         <option value="$PROJECT_DIR$/components/com_newspapers/models/evento.php" />
         <option value="$PROJECT_DIR$/components/com_newspapers/models/inscrever.php" />
         <option value="$PROJECT_DIR$/components/com_newspapers/views/evento/tmpl/default.php" />
@@ -241,7 +251,6 @@
         <option value="$PROJECT_DIR$/modules/mod_login/tmpl/default.php" />
         <option value="$PROJECT_DIR$/templates/cirrus-green/js/script.js" />
         <option value="$PROJECT_DIR$/modules/mod_banner_int_three/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/templates/cirrus-green/index.php" />
         <option value="$PROJECT_DIR$/modules/mod_newspaper/mod_newspaper.xml" />
         <option value="$PROJECT_DIR$/media/com_acymailing/css/module_default.css" />
         <option value="$PROJECT_DIR$/components/com_newspapers/views/newspapers/tmpl/default.php" />
@@ -255,7 +264,6 @@
         <option value="$PROJECT_DIR$/modules/mod_colaborators/assets/js/script.js" />
         <option value="$PROJECT_DIR$/modules/mod_colaborators/assets/css/style.css" />
         <option value="$PROJECT_DIR$/modules/mod_colaborators/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/templates/cirrus-green/css/template.css" />
         <option value="$PROJECT_DIR$/components/com_joomgallery/css/lightbox.css" />
         <option value="$PROJECT_DIR$/components/com_joomgallery/views/category/tmpl/default_images.php" />
         <option value="$PROJECT_DIR$/components/com_joomgallery/views/gallery/tmpl/default.php" />
@@ -268,6 +276,16 @@
         <option value="$PROJECT_DIR$/plugins/content/sigplus/tmpl/default.php" />
         <option value="$PROJECT_DIR$/media/sigplus/css/sigplus.css" />
         <option value="$PROJECT_DIR$/plugins/content/sigplus/tmpl/item.php" />
+        <option value="$PROJECT_DIR$/libraries/src/Document/HtmlDocument.php" />
+        <option value="$PROJECT_DIR$/templates/cirrus-green/html/com_content/article/default.php" />
+        <option value="$PROJECT_DIR$/templates/cirrus-green/index.php" />
+        <option value="$PROJECT_DIR$/templates/cirrus-green/component.php" />
+        <option value="$PROJECT_DIR$/components/com_jem/classes/output.class.php" />
+        <option value="$PROJECT_DIR$/components/com_jem/views/calendar/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/components/com_jem/classes/calendar.class.php" />
+        <option value="$PROJECT_DIR$/media/com_jem/css/calendar.css" />
+        <option value="$PROJECT_DIR$/templates/cirrus-green/css/template.css" />
+        <option value="$PROJECT_DIR$/media/com_jem/css/jem.css" />
       </list>
     </option>
   </component>
@@ -323,6 +341,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,19 +352,54 @@
             <path>
               <item name="jaragua" type="b2602c69:ProjectViewProjectNode" />
               <item name="jaragua" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="jaragua" type="b2602c69:ProjectViewProjectNode" />
               <item name="jaragua" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sigplus" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="com_jem" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="jaragua" type="b2602c69:ProjectViewProjectNode" />
               <item name="jaragua" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="media" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sigplus" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="com_jem" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jaragua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaragua" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="com_jem" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="calendar" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jaragua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaragua" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="com_jem" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="calendar" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tmpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jaragua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaragua" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jaragua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaragua" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cirrus-green" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="jaragua" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jaragua" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cirrus-green" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -353,7 +407,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,11 +460,12 @@
       <workItem from="1545350789402" duration="7455000" />
       <workItem from="1546700113455" duration="562000" />
       <workItem from="1547677578319" duration="14584000" />
+      <workItem from="1548109544304" duration="14978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152483000" />
+    <option name="totallyTimeSpent" value="167461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -448,146 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libraries/nextend2/nextend/library/libraries/assets/assets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="117" column="42" lean-forward="false" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_warnings/mod_warnings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_last/views/last/tmpl/default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_last/last.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_partners/mod_partners.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_newspaper/mod_newspaper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/com_acymailing/css/module_default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_newspaper/mod_newspaper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_newspaper/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="46" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="27" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_warnings/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="90" column="39" lean-forward="false" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_newspaper/assets/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="69" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default_component.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-451">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default_url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-539">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_menus/menus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_menu/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_newspapers/views/newspapers/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_newspaper/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_newspapers/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cirrus-green/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1473">
-          <caret line="197" column="7" lean-forward="false" selection-start-line="197" selection-start-column="7" selection-end-line="197" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_colaborators/tmpl/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/mod_colaborators/helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -632,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cirrus-green/css/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="2175" column="21" lean-forward="false" selection-start-line="2175" selection-start-column="21" selection-end-line="2175" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/joomgallery/css/joom_settings.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -659,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="516" column="122" lean-forward="false" selection-start-line="516" selection-start-column="110" selection-end-line="516" selection-end-column="122" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,9 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="36" column="78" lean-forward="false" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="76" column="45" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,21 +616,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/cirrus-green/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="83" column="11" lean-forward="true" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+        <state relative-caret-position="1411">
+          <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_joomgallery/views/category/tmpl/default_header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="391">
           <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
           <folding />
         </state>
@@ -739,12 +637,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_joomgallery/views/category/tmpl/default_images.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="2788">
           <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="170" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <marker date="1547688074949" expanded="false" signature="8872:8878" ph=" " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +653,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/content/sigplus/script.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1545438223000" expanded="true" signature="6789:6913" ph="SELECT param... ##__extensions" />
@@ -769,16 +664,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/content/sigplus/sigplus.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="73" column="150" lean-forward="true" selection-start-line="73" selection-start-column="150" selection-end-line="73" selection-end-column="150" />
+        <state relative-caret-position="1241">
+          <caret line="73" column="150" lean-forward="false" selection-start-line="73" selection-start-column="150" selection-end-line="73" selection-end-column="150" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/content/sigplus/core/params.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4801">
-          <caret line="1266" column="72" lean-forward="true" selection-start-line="1266" selection-start-column="72" selection-end-line="1266" selection-end-column="72" />
+        <state relative-caret-position="21386">
+          <caret line="1266" column="72" lean-forward="false" selection-start-line="1266" selection-start-column="72" selection-end-line="1266" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -787,14 +682,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="59" column="86" lean-forward="false" selection-start-line="59" selection-start-column="86" selection-end-line="59" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/content/sigplus/core/core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="3270" column="0" lean-forward="true" selection-start-line="3270" selection-start-column="0" selection-end-line="3270" selection-end-column="0" />
+        <state relative-caret-position="55454">
+          <caret line="3270" column="0" lean-forward="false" selection-start-line="3270" selection-start-column="0" selection-end-line="3270" selection-end-column="0" />
           <folding>
             <marker date="1547771994875" expanded="true" signature="10977:11086" ph="INSERT INTO $... " />
             <marker date="1547771994875" expanded="true" signature="14594:14703" ph="INSERT INTO $... " />
@@ -812,7 +706,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/content/sigplus/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="986">
           <caret line="66" column="85" lean-forward="false" selection-start-line="66" selection-start-column="85" selection-end-line="66" selection-end-column="85" />
           <folding />
         </state>
@@ -820,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/media/sigplus/css/sigplus.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="884">
           <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
           <folding />
         </state>
@@ -830,6 +724,179 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="42" column="47" lean-forward="false" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/basic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="144" column="13" lean-forward="true" selection-start-line="144" selection-start-column="13" selection-end-line="144" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/src/Helper/ModuleHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/src/Document/HtmlDocument.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="572" column="5" lean-forward="true" selection-start-line="572" selection-start-column="5" selection-end-line="572" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cirrus-green/html/com_content/category/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cirrus-green/html/com_content/category/blog_item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="83" column="66" lean-forward="false" selection-start-line="83" selection-start-column="65" selection-end-line="83" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cirrus-green/html/com_content/article/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/system/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/system/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/system/error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/system/html/modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/nextend2/nextend/library/libraries/assets/assets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cirrus-green/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_joomgallery/views/gallery/tmpl/default_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="64" column="99" lean-forward="false" selection-start-line="64" selection-start-column="99" selection-end-line="64" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_jem/classes/output.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <marker date="1548118614656" expanded="true" signature="6037:6043" ph=" " />
+            <marker date="1548118614656" expanded="true" signature="29895:29930" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_jem/views/calendar/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_jem/views/calendar/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cirrus-green/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="140" column="82" lean-forward="false" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_jem/classes/calendar.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="63" column="53" lean-forward="false" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+          <folding>
+            <marker date="1548196923733" expanded="true" signature="20750:20767" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/com_jem/css/calendar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="97" column="36" lean-forward="false" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cirrus-green/css/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="2295" column="12" lean-forward="false" selection-start-line="2295" selection-start-column="12" selection-end-line="2295" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/com_jem/css/jem.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="429" column="19" lean-forward="true" selection-start-line="429" selection-start-column="19" selection-end-line="429" selection-end-column="19" />
           <folding />
         </state>
       </provider>
