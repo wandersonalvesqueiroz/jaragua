@@ -61,8 +61,8 @@ class JemCalendar
 	*/
 	var $yearNavBack=" &lt;&lt; "; // Previous year, this could be an image link
 	var $yearNavForw=" &gt;&gt; "; // Next year, this could be an image link
-	var $monthNavBack="<img src='../../../images/prev_event.png'>"; // Previous month, this could be an image link
-	var $monthNavForw="<img src='../../../images/next_event.png'>"; // Next month, this could be an image link
+	var $monthNavBack="images/prev_event.png"; // Previous month, this could be an image link
+	var $monthNavForw="images/next_event.png"; // Next month, this could be an image link
 	var $selBtn="Go"; // value of the date picker button (if enabled)
 	var $monthYearDivider=" "; // the divider between month and year in the month`s title
 	/*
@@ -499,7 +499,7 @@ class JemCalendar
 			} else {
 				$out.=$this->mkUrl($this->actyear,$this->actmonth-1);
 			}
-			$out .= $this->monthNavBack."</a></th>";
+			$out .= "<img src='".JUri::base()."/".$this->monthNavBack."' /></a></th>";
 			$out .= "<th class=\"".$this->cssMonthTitle."\" colspan=\"".($this->monthSpan-4)."\">";
 			$out .= $this->getMonthName().$this->monthYearDivider.$this->actyear."</th>";
 			$out .= "<th class=\"".$this->cssMonthNav."\" colspan=\"2\" style=\"text-align:left;\">";
@@ -509,7 +509,7 @@ class JemCalendar
 			else {
 				$out.=$this->mkUrl($this->actyear,$this->actmonth+1);
 			}
-			$out.=$this->monthNavForw."</a></th></tr>\n";
+			$out.="<img src='".JUri::base()."/".$this->monthNavForw."' /></a></th></tr>\n";
 		}
 		return $out;
 	}

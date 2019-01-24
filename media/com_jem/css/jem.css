@@ -5,12 +5,32 @@
  * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  */
 
-div#jem a {
+div#jem a.flyermodal {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: table;
+    position: relative;
 }
 
 div#jem h1.componentheading {
-    margin-bottom: 6px;
-    margin-top: 6px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 3px 0;
+    font-weight: 600;
+}
+
+div#jem h1.componentheading small {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+small.categories {
+    font-size: 14px;
+}
+
+small.categories a{
+    text-decoration: none;
+    font-weight: 500;
 }
 
 div#jem .formelm-buttons {
@@ -250,8 +270,8 @@ div#jem dd { /* definition description */
 }
 
 div#jem div.description {
-    margin: 5px 0;
-    padding: 0 5px;
+    margin: 15px 0;
+    padding: 0;
 }
 
 div#jem div.no_space,
@@ -279,6 +299,11 @@ div#jem .flyerimage {
     position: static !important;
     background: transparent;
     box-shadow: none;
+    width: 40%;
+}
+
+div#jem .flyerimage img{
+    max-width: 40%;
 }
 
 div#jem .googlemap {

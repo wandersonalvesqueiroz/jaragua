@@ -1051,10 +1051,10 @@ class JemOutput
 			} else {
 				JHtml::_('behavior.modal', 'a.flyermodal');
 				$url = JUri::base().$image['original'];
-				$attributes = $id_attr.' class="flyermodal flyerimage" title="'.$info.'"';
+				$attributes = $id_attr.' class="flyermodal" title="'.$info.'"';
 
-				$icon = '<img src="'.JUri::base().$image['thumb'].'" width="'.$image['thumbwidth'].'" height="'.$image['thumbheight'].'" alt="'.$info.'" title="'.JText::_('COM_JEM_CLICK_TO_ENLARGE').'" />';
-				$output = '<div class="flyerimage"><a href="'.$url.'" '.$attributes.'>'.$icon.'</a></div>';
+				$icon = 'style="background-image: url('.JUri::base().$image['thumb'].');"';
+				$output = '<div class="flyerimage"><a href="'.$url.'" '.$attributes.' '.$icon.'></a></div>';
 			}
 		// Otherwise take the values for the original image specified in the settings
 		} else {

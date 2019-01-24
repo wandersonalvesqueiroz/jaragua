@@ -6,7 +6,7 @@
  */
 
 defined('_JEXEC') or die('Restricted access');
-$LeftMenuOn = ($this->countModules('position-4') or $this->countModules('position-5') or $this->countModules('position-7'));
+$LeftMenuOn = ($this->countModules('position-4') or $this->countModules('position-7'));
 $RightMenuOn = ($this->countModules('position-6') or $this->countModules('position-3'));
 $app = JFactory::getApplication();
 $logopath = $this->baseurl . '/templates/' . $this->template . '/images/logo-demo-green.gif';
@@ -57,6 +57,12 @@ JHTML::_('behavior.modal');
 <body>
 
 <div id="wrapper">
+
+    <?php if ($this->countModules('position-5')): ?>
+    <div class="club-label">
+        <jdoc:include type="modules" name="position-5" style="xhtml"/>
+    </div>
+    <?php endif; ?>
 
     <div id="header_wrap">
         <div id="palmeiras">
@@ -125,7 +131,6 @@ JHTML::_('behavior.modal');
                 <div id="leftmenu">
                     <jdoc:include type="modules" name="position-7" style="xhtml"/>
                     <jdoc:include type="modules" name="position-4" style="xhtml"/>
-                    <jdoc:include type="modules" name="position-5" style="xhtml"/>
                 </div>
             <?php endif; ?>
 
